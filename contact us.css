@@ -1,0 +1,17 @@
+/* style input width type="text", select elements and textarea */
+input{type=text}, select, textarea{
+width: 110%; /* full width */
+padding: 10px; /*some padding */
+border: 2px solid /* red border */
+border-radius: 6px; /* rounded border */
+box-sizing: border-box;
+margin-top: 5px; /* add a top margin */
+margin-bottom: 15px; /*bottom margin */
+resize: :vertical /*allow the user to vertically resize */ 
+}
+
+/* style the submit button with a specific background color etc */
+input{type=submit} {
+    background-color: padding: ;
+    color::content
+}

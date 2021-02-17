@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+.contact- section{
+    background-image: url(h4.jpg); 
+    background-size: cover;
+    padding-left: 2;
+}
+.contact- section h1{
+    text-align: center;
+    color: blueviolet;
+}
+.border{
+    width: 100px;
+    height: 15px,auto;
+    background: chocolate;
+    margin: 30px auto;
+}
+.contact- form{
+    max-width: 500px;
+    margin: auto;
+    padding: 0 15px;
+    overflow: hidden;
+}
+
+.contact-form-text{
+    display: block;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 15px 3;
+    border: darkgreen;
+
+    padding: 15px 30px;
+    outline: darkred;
+    color: dimgrey(55, 65, 35);
+    transition: 0.5s;
+}
+.contact-form-text:focus{
+    box-shadow: dodgerblue 0 0 15px 5px;
+}
+textarea.contact-form-text{
+    resize: none;
+    height: 100px;
+
+}
+.contact-form-brn{
+    float: right;
+    border: orchid(182, 155, 177);
+    color: plum;
+    padding: 10px 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: none;
+}
+.contact-form-brn:hover{
+    background-image: red;
+}
+
+    /* add a background color and some padding around the form*/
+    .container{
+        border-radius: 6px;
+    }
